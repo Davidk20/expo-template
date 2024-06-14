@@ -15,3 +15,10 @@ This project uses:
 - [Expo](https://expo.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Jest](https://jestjs.io/)
+
+
+## Getting Started
+
+1) Rename the project:
+   1) [`package.json`](./package.json)
+   1) [`app.json`](./app.json)

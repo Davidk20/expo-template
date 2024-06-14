@@ -1,9 +1,10 @@
+/* eslint-disable */
 /**
  * For a detailed explanation regarding each configuration property, visit:
  * https://jestjs.io/docs/configuration
  */
 
-import type {Config} from 'jest';
+import type {Config} from "jest";
 
 const config: Config = {
   // All imported modules in your tests should be mocked automatically
@@ -26,7 +27,7 @@ const config: Config = {
 
   // An array of regexp pattern strings used to skip coverage collection
   coveragePathIgnorePatterns: [
-     "/node_modules/"
+    "/node_modules/"
   ],
 
   // Indicates which provider should be used to instrument code for coverage

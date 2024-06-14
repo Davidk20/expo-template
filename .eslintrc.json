@@ -1,7 +1,7 @@
 {
   "env": {
-      "browser": true,
-      "es2021": true
+    "browser": true,
+    "react-native/react-native": true
   },
   "extends": [
       "eslint:recommended",
@@ -10,14 +10,17 @@
   ],
   "overrides": [
   ],
-  "parser": "@typescript-eslint/parser",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-      "ecmaVersion": "latest",
+      "ecmaFeatures": {
+        "jsx": true
+      }, 
       "sourceType": "module"
   },
   "plugins": [
       "react",
-      "@typescript-eslint"
+      "@typescript-eslint",
+      "react-native"
   ],
   "rules": {
       "indent": [
