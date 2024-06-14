@@ -1,1 +1,14 @@
 node_modules
+coverage/
+
+# VS Code
+.vscode
+
+# Expo
+.expo/*
+bin/Exponent.app
+/android
+/ios
+
+# OSX
+.DS_Store
